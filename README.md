@@ -116,15 +116,17 @@ Add project screenshots below.
 
 ### Chrome Extension PR Review
 
-<!-- Add screenshot here -->
+![Extension](./screenshots/extension1.png)
+
+![Extension](./screenshots/extension2.png)
+
+![Extension](./screenshots/extension3.png)
 
 ### React Frontend Review
 
-<!-- Add screenshot here -->
+![Frontend](./screenshots/frontend1.png)
 
-### Docker Services
-
-<!-- Add screenshot here -->
+![Frontend](./screenshots/frontend2.png)
 
 ---
 
