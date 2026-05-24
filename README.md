@@ -312,4 +312,8 @@ ai-pr-reviewer/
 
 ## Notes
 
-This project uses an AI-first review flow with backend guardrails. AI output is validated against the actual changed code before it is shown. If AI output is malformed or does not match the diff, generic fallback checks provide additional coverage.
+This project currently uses Ollama with the DeepSeek Coder model for AI-based code analysis.
+
+The platform works well for common code quality and security issues, but AI responses may sometimes be inconsistent or incomplete depending on the code complexity and model limitations.
+
+To improve reliability, the backend includes JSON cleaning, validation, and fallback handling before displaying results to users.
