@@ -317,10 +317,7 @@ This project currently uses Ollama with the DeepSeek Coder model for AI-based co
 The platform works well for common code quality and security issues, but AI responses may sometimes be inconsistent or incomplete depending on the code complexity and model limitations.
 
 To improve reliability, the backend includes JSON cleaning, validation, and fallback handling before displaying results to users.
-<<<<<<< HEAD
 
 # License
 
 MIT License
-=======
->>>>>>> 638ac20bec834a1972353eb3ecb352772a2b4dd4
