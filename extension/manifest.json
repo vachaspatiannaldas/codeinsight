@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+
+  "name": "CodeInsight (AI PR Reviewer)",
+
+  "version": "1.0.0",
+
+  "description": "AI-powered GitHub PR reviewer",
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "https://github.com/*",
+    "https://patch-diff.githubusercontent.com/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/pull/*"
+      ],
+
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
